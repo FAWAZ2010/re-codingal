@@ -1,0 +1,95 @@
+<html>
+<head>
+    <title>Document</title>
+    <style>
+        #jojo{
+            text-shadow: 0vmax;
+            color: greenyellow;
+            background-color: red;
+            border: 5px groove black ;
+        }
+        .index{
+            text-shadow: 0vmax;
+            color: greenyellow;
+            background-color: red;
+            border: 5px groove black ;
+        }
+        .container{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        h1{
+            text-align: center;
+            color: red;
+            background-color: black;
+            border: 5px groove black ;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <h1>my loops</h1>
+    <p id="The Gunners"></p>
+    <script>
+        var friends = ["Saka", "Martinelli", "Odegaard", "Merino", "Rice","Partey","David raya","Gabriel","J.Timber", "Saliba","Calafiori"];
+        var text = "";
+        var i 
+        for (i=0; i <friends.length; i++){
+            text +=friends [i] + "<br>";
+        }
+        document.write(text);
+        document.write("<br>");
+        document.getElementById("The Gunners").innerHTML =text;
+
+
+    </script>
+    <h1 id="jojo">My methods</h1>
+    <script>
+          var str ="Saung Jin Woo"
+        document.write(str.toUpperCase())
+        document.write("<br>")
+        document.write(str.toLowerCase())
+        document.write("<br>")
+        document.write(str.startsWith("A"))
+        document.write("<br>")
+        document.write(str.startsWith("Saung"))
+        document.write("<br>")
+        document.write(str.endsWith("Woo"))
+        document.write("<br>")
+        var str1 ="hope of Africa"
+        var patt = new RegExp("solo")
+        var res = patt.test (str1)
+        document.write(res)
+        document.write("<br>")
+        var str1 ="hope of Africa"
+        var patt = new RegExp("Africa")
+        var res = patt.test (str1)
+        document.write(res)
+    </script>
+    <br><br><hr>
+    <h1 class="index">my switch</h1>
+    <a href="switches.html">continue to read</a>
+    <footer>
+        <p>Email: maisurf27@yahoomail.com</p>
+        <p><h3><b><i>FOR MORE INFORMATION</i></b></h3></p>
+        <p>tell=0242601933
+        </p>
+        <p>@copyright 2069</p>
+        <p><h2><i><b>thank for reading My project hope you comment and like</b></i></h2></p>
+        <div class="container">
+            
+            </div>
+    </footer>
+</body>
+</html> 

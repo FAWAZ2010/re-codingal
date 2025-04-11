@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>objects</title>
+    <style>
+        #gojo{
+            color: blue;
+            font-size: 15px;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+       </style>
+</head>
+<body>
+    <h1 style="color: red;">Object</h1>
+    <p id="gojo"> <u>Object is a collection of properties </u></p>
+    <p id="demo"></p>
+    <script>
+        //a connection of properties is called an object
+        //create an object
+        var person = {
+            firstname: "Fawaz",
+            lastname: "Safian",
+             age : 14,
+        }
+        document.getElementById("demo").innerHTML = person.firstname +" " + person.lastname + " is " + person.age + " years old.";
+    </script>
+</body>
+</html>
