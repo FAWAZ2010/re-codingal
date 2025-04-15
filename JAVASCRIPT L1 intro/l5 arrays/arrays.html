@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arrays</title>
+</head>
+<body>
+    <h1 style="color: green;"> <u><b><i>Arrays in javascript </i></b<></u></h1>
+    <p id="boostrap"></p>
+    <p id="javascript"></p>
+    <p id="html"></p>
+    <p id="css"></p>
+    <script>
+        var languages = ["boostrap", "css", "html","javascript"];
+        document.getElementById("boostrap").innerHTML = languages[0];
+        document.getElementById("css").innerHTML = languages[1];
+        document.getElementById("html").innerHTML = languages[2];
+        document.getElementById("javascript").innerHTML = languages[3];
+        languages.pop();
+        //using pop()
+        document.getElementById("javascript").innerHTML = languages.pop();
+        //using push()
+        document.getElementById("css").innerHTML = languages.join("*");
+               </script>    
+</body>
+</html>
