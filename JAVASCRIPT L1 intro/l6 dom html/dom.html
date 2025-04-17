@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+<body>
+    <h1 id="dom">Welcome to Codingal</h1>
+    <form id="login" onsubmit="validate(event)">
+        <fieldset>
+            <div>
+                <label for="Email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div><br> <br>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" minlength="10">
+            </div><br>
+            <br>
+            <div>
+                <label for="age">Age</label>
+                <input type="number" id="age" name="age" max="60" min="13">
+            </div><br>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+    <div id="message"></div>
+
+    <script src="dom.js"></script>
+    
+</body>
+</html>
